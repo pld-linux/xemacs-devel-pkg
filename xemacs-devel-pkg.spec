@@ -6,7 +6,9 @@ Version:	1.48
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+#Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	ftp://ftp.xemacs.org/Attic/packages/oldpkg/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	dcb108b462e82d6fcb9984a5d8dfafe6
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildRequires:	texinfo

@@ -1,0 +1,15 @@
+--- xemacs-devel-pkg-1.48/man/xemacs-devel/patcher.texi~	Tue Sep  3 04:12:24 2002
++++ xemacs-devel-pkg-1.48/man/xemacs-devel/patcher.texi	Tue Sep  3 04:12:24 2002
+@@ -38,9 +38,10 @@
+ @settitle Patcher
+ @setchapternewpage odd
+ @setcontentsaftertitlepage
+-@dircategory Emacs
++@dircategory XEmacs Editor:
+ @direntry
+-* Patcher: (patcher). Automatic archive-based projects maintenance.
++* Patcher: (patcher).			Automatic archive-based projects
++					maintenance
+ @end direntry
+ @c %** end of header
+ 

@@ -2,7 +2,7 @@ Summary:	Emacs Lisp developer support
 Summary(pl):	Emacs Lisp developer support
 Name:		xemacs-devel-pkg
 %define 	srcname	xemacs-devel
-Version:	1.37
+Version:	1.38
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

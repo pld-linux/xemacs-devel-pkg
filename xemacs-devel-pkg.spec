@@ -2,7 +2,7 @@ Summary:	Emacs Lisp developer support
 Summary(pl):	Wsparcie dla programistów Emacs Lisp
 Name:		xemacs-devel-pkg
 %define 	srcname	xemacs-devel
-Version:	1.43
+Version:	1.46
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -29,8 +29,6 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/xemacs-devel/ChangeLog
-
 # remove .el file if corresponding .elc file exists
 find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || rm -f $i; done
 
@@ -39,6 +37,6 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/xemacs-devel/ChangeLog.gz
+%doc lisp/xemacs-devel/ChangeLog
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*

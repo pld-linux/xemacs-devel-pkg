@@ -3,7 +3,7 @@ Summary(pl):	Wsparcie dla programistów Emacs Lisp
 Name:		xemacs-devel-pkg
 %define 	srcname	xemacs-devel
 Version:	1.60
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz

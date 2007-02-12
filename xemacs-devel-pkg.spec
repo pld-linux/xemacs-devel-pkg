@@ -1,5 +1,5 @@
 Summary:	Emacs Lisp developer support
-Summary(pl):	Wsparcie dla programistów Emacs Lisp
+Summary(pl.UTF-8):   Wsparcie dla programistÃ³w Emacs Lisp
 Name:		xemacs-devel-pkg
 %define 	srcname	xemacs-devel
 Version:	1.72
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Emacs Lisp developer support.
 
-%description -l pl
-Wsparcie dla programistów Emacs Lisp.
+%description -l pl.UTF-8
+Wsparcie dla programistÃ³w Emacs Lisp.
 
 %prep
 %setup -q -c

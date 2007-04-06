@@ -6,7 +6,7 @@ Version:	1.72
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	b11f75c8ab895518f9324c668cb5fd84
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/

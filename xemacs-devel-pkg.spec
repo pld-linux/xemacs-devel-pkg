@@ -55,4 +55,4 @@ rm -fr $RPM_BUILD_ROOT
 %doc lisp/xemacs-devel/ChangeLog
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
-%{_infodir}/*
+%{_infodir}/*.info*

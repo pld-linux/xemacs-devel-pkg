@@ -48,7 +48,7 @@ find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || 
 -/usr/sbin/fix-info-dir -c %{_infodir}
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)

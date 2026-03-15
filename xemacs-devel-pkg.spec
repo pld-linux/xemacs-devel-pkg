@@ -2,14 +2,14 @@ Summary:	Emacs Lisp developer support
 Summary(pl.UTF-8):	Wsparcie dla programistów Emacs Lisp
 Name:		xemacs-devel-pkg
 %define 	srcname	xemacs-devel
-Version:	1.80
+Version:	1.84
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	50a2fe1426937ae8e9d04d1b9138bb09
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	5dff94505be29c3ea500ca1463f5d795
 Patch0:		%{name}-info.patch
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildRequires:	texinfo
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
